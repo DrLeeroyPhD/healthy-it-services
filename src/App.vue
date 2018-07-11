@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" type="text/css" />
+
+    <div id="background-container">
+      <img src="./assets/bg-laptop.jpg" id="background" />
+    </div>
+
     <div id="nav">
       <router-link to="/">home</router-link>
       <router-link to="/about">about</router-link>
@@ -8,12 +13,14 @@
       <router-link to="/contact">contact</router-link>
     </div>
 
+<!-- TEMP FOOTER -->
+    <footer>
+        healthy it services 2018
+    </footer>
+<!-- END TEMP FOOTER -->
 
-    <div id="background-container">
-      <img src="./assets/bg-laptop.jpg" id="background" />
-    </div>
 
-    <footing />
+    <!-- <footing /> -->
 
     <router-view/>
   </div>
@@ -23,7 +30,7 @@
 
 <!-- IMPORTS -->
 <script>
-   import footing from '@/components/Footing.vue'
+   // import Footing from '@/components/Footing.vue'
 </script>
 
 <style>
@@ -38,6 +45,11 @@ div#background-container{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
 }
 
 img#background{
@@ -48,6 +60,7 @@ img#background{
     width: 110vw;
     z-index: -1000;
     filter: opacity(.30);
+    z-index: -10;
 }
 
 div#nav{
@@ -77,4 +90,19 @@ div#nav *:hover{
     display: inline-block;
     margin: -20px;
 }
+
+
+/** TEMP FOOTER STYLING **/
+footer{
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: lighter;
+    color: var(--dark-grey);
+    font-size: .75em;
+    letter-spacing: 4px;
+}
+/** END TEMP FOOTER STYLING **/
+
 </style>

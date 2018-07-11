@@ -1,15 +1,14 @@
 <template>
-    <div id="footer">
-      <router-link to="/">home</router-link>
-      <router-link to="/about">about</router-link>
-      <router-link to="/services">services</router-link>
-      <router-link to="/contact">contact</router-link>
-    </div>
+  <div class="footing">
+    <footer>
+        healthy it services 2018
+    </footer>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'footing'
+  name: 'Footing'
 }
 </script>
 
