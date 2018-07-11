@@ -34,6 +34,8 @@
 </script>
 
 <style>
+
+/** GLOBAL VARIABLES **/
 :root{
     --dark-purple: #5F5170;
     --light-purple: #A197A8;
