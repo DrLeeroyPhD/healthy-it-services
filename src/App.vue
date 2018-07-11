@@ -41,6 +41,7 @@
     --light-grey: #515151;
 }
 
+/** BACKGROUND **/
 div#background-container{
     height: 100vh;
     width: 100vw;
@@ -63,6 +64,7 @@ img#background{
     z-index: -10;
 }
 
+/** NAVIGATION **/
 div#nav{
     width: 100%;
     margin-top: 40px;
@@ -85,10 +87,11 @@ div#nav *:hover{
     transition: color ease-out .2s;
 }
 
-.logo img{
+/** LOGO **/
+.logo-container img{
     width: 150px;
     display: inline-block;
-    margin: -20px;
+    margin: 5px;
 }
 
 
