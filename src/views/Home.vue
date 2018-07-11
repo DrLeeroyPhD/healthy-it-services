@@ -9,5 +9,11 @@
 </template>
 
 <style>
-  
+  .arrow{
+    top: 0;
+  }
+
+  .arrow2{
+    right: 0;
+  }
 </style>

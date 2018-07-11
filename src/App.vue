@@ -13,21 +13,26 @@
       <router-link to="/contact">contact</router-link>
     </div>
 
-<!-- TEMP FOOTER -->
-    <footer>
-        healthy it services 2018
-    </footer>
-<!-- END TEMP FOOTER -->
+    <img src="@/assets/left-arrow.svg" alt="" class="arrow arrow1" />
+    <img src="@/assets/left-arrow.svg" alt="" class="arrow arrow2" />
+
+<!-- ***** CONTENT ***** -->
+    <router-view/>
 
 
     <!-- <footing /> -->
 
-    <router-view/>
+    <!-- TEMP FOOTER -->
+        <footer>
+            healthy it services 2018
+        </footer>
+    <!-- END TEMP FOOTER -->
+
   </div>
 </template>
 
 
-
+f
 <!-- IMPORTS -->
 <script>
    // import Footing from '@/components/Footing.vue'
@@ -63,13 +68,13 @@ img#background{
     width: 110vw;
     z-index: -1000;
     filter: opacity(.30);
-    z-index: -10;
+    z-index: -11;
 }
 
 /** NAVIGATION **/
 div#nav{
-    width: 100%;
-    margin-top: 40px;
+    width: 100vw;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.4);
@@ -96,6 +101,22 @@ div#nav *:hover{
     margin: 5px;
 }
 
+/** ARROWS DEFAULT **/
+.arrow{
+  display: inline-block;
+  position: absolute;
+  width: 90px;
+  z-index: -2;
+}
+
+.arrow1{
+  transform: rotate(180deg);
+  transition: top 1s 1s, left 1s, right 1s, bottom 1s 1s, transform 2s;
+}
+
+.arrow2{
+  transition: top 1s, left 1s 1s, right 1s 1s, bottom 1s, transform 2s;
+}
 
 /** TEMP FOOTER STYLING **/
 footer{
