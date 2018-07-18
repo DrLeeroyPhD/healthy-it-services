@@ -48,6 +48,17 @@ f
     --light-grey: #515151;
 }
 
+@font-face {
+    font-family: glacial;
+    src: url(./assets/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+    font-family: glacialBold;
+    src: url(./assets/GlacialIndifference-Bold.otf);
+}
+
+
 /** BACKGROUND **/
 div#background-container{
     height: 100vh;
@@ -80,6 +91,7 @@ div#nav{
     background-color: rgba(255, 255, 255, 0.4);
     padding: 5px;
     z-index: 50;
+    font-family: glacial, sans-serif;
 }
 
 div#nav *{
@@ -96,7 +108,7 @@ div#nav *:hover{
 
 /** LOGO **/
 .logo-container img{
-    width: 150px;
+    width: 125px;
     display: inline-block;
     margin: 5px;
 }
