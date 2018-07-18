@@ -44,6 +44,7 @@ with his wife.
     width: 60%;
     margin-left: 6%;
     margin-top: 6%;
+    z-index: 2;
   }
 
   .about p {
