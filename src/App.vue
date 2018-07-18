@@ -30,8 +30,6 @@
   </div>
 </template>
 
-
-f
 <!-- IMPORTS -->
 <script>
    // import Footing from '@/components/Footing.vue'
@@ -140,6 +138,7 @@ footer{
     color: var(--dark-grey);
     font-size: .75em;
     letter-spacing: 4px;
+    font-family: glacial, sans-serif;
 }
 /** END TEMP FOOTER STYLING **/
 
