@@ -92,11 +92,12 @@ div#nav{
     padding: 5px;
     z-index: 50;
     font-family: glacial, sans-serif;
+    letter-spacing: 10px;
 }
 
 div#nav *{
     color: var(--dark-grey);
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-decoration: none;
     transition: color ease-out .2s;
 }
