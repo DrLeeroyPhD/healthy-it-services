@@ -36,7 +36,7 @@ with his wife.
     left: 40% !important;
   }
 
-  End Arrow Placement **/
+End Arrow Placement **/
 
   .about {
     padding: 2px 25px;
