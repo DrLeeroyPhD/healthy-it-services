@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about page">
     <p>
       Raised in the early days of the internet age, Christopher was
 practically born with a motherboard in one hand, and a hard

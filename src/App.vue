@@ -16,7 +16,9 @@
     <img src="@/assets/left-arrow.svg" alt="" class="arrow arrow2" />
 
 <!-- ***** CONTENT ***** -->
-    <router-view/>
+    <transition name="router-anim" enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOutRight">
+      <router-view/>
+    </transition>
 
 
     <!-- <footing /> -->
@@ -45,6 +47,7 @@
     --light-grey: #515151;
 }
 
+/** IMPORTS **/
 @font-face {
     font-family: glacial;
     src: url(./assets/GlacialIndifference-Regular.otf);
@@ -55,6 +58,7 @@
     src: url(./assets/GlacialIndifference-Bold.otf);
 }
 
+@import "https://cdn.jsdelivr.net/npm/animate.css@3.5.1";
 
 /** BACKGROUND **/
 div#background-container{
@@ -126,6 +130,11 @@ div#nav *:hover{
 
 .arrow2{
   transition: top 1s, left 1s 1s, right 1s 1s, bottom 1s, transform 2s;
+}
+
+.page{
+  position: fixed;
+  width: inherit;
 }
 
 /** TEMP FOOTER STYLING **/
