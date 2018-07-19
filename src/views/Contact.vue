@@ -13,6 +13,7 @@
 <style>
   .contact {
     margin-top: 12%;
+    width: 100%;
   }
 
   .screen-img {
