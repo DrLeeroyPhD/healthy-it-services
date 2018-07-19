@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact page">
     <div class="screen-img">
       <img src="@/assets/screen.svg" alt="">
     </div>
