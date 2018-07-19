@@ -1,5 +1,6 @@
 <template>
   <div class="services page">
+
     <ul>
       <li>IT consulting</li>
       <li>network solutions and security</li>
@@ -11,23 +12,41 @@
       <li>phishing training available</li>
       <li>free first consultation!</li>
     </ul>
+
+    <div class="logo-container">
+      <img src="@/assets/logo-edit.png" alt="">
+      <img src="@/assets/logo-edit.png" alt="">
+      <img src="@/assets/logo-edit.png" alt="">
+    </div>
   </div>
 </template>
 
 <style>
   .services {
-    padding: 2px 25px;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 60%;
-    margin-left: 10%;
+    width: 100%;
     margin-top: 6%;
     z-index: 2;
     display: flex;
     justify-content: space-around;
   }
 
+  .services ul {
+    width: 60%;
+    padding: 2px 25px;
+    padding-left: 50px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
   .services ul li{
     font-family: glacial, sans-serif;
     font-size: 2.5em;
+  }
+
+  .services .logo-container {
+    position: absolute;
+    display: inline-block;
+    z-index: -10;
+    top: -50px;
   }
 </style>

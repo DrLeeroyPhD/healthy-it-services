@@ -16,6 +16,7 @@
     <img src="@/assets/left-arrow.svg" alt="" class="arrow arrow2" />
 
 <!-- ***** CONTENT ***** -->
+
     <transition name="router-anim" enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOutRight">
       <router-view/>
     </transition>
