@@ -24,7 +24,7 @@
 <style>
   .services {
     width: 100%;
-    margin-top: 6%;
+    margin-top: 8%;
     z-index: 2;
     display: flex;
     justify-content: space-around;
