@@ -1,5 +1,22 @@
 <template>
   <div class="contact">
-    <h1>This is a contact page</h1>
+    <div class="screen-img">
+      <img src="@/assets/screen.svg" alt="">
+    </div>
+
+    <!-- <div class="email-img">
+      <img src="@/assets/email.svg" alt="">
+    </div> -->
   </div>
 </template>
+
+<style>
+  .contact {
+    margin-top: 12%;
+  }
+
+  .screen-img {
+    display: flex;
+    justify-content: space-around;
+  }
+</style>
