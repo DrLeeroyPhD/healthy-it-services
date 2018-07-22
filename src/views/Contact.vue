@@ -4,9 +4,9 @@
       <img src="@/assets/screen.svg" alt="">
     </div>
 
-    <!-- <div class="email-img">
+    <div class="email-img">
       <img src="@/assets/email.svg" alt="">
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -17,6 +17,12 @@
   }
 
   .screen-img {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+  }
+
+  .email-img {
     display: flex;
     justify-content: space-around;
   }
