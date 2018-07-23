@@ -1,9 +1,9 @@
 <template>
   <div class="home page">
     <div class="logo-container">
-      <img src="@/assets/logo-edit.png" alt="">
-      <img src="@/assets/logo-edit.png" alt="">
-      <img src="@/assets/logo-edit.png" alt="">
+      <img src="@/assets/logo-edit.png" alt="The company logo of 3 8-bit hearts">
+      <img src="@/assets/logo-edit.png" alt="The company logo of 3 8-bit hearts">
+      <img src="@/assets/logo-edit.png" alt="The company logo of 3 8-bit hearts">
     </div>
     <h1>HEALTHY IT <br>SERVICES</h1>
     <h2>christopher denny : it consultant</h2>

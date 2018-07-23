@@ -1,7 +1,7 @@
 <template>
   <div class="contact page">
     <div class="screen-img">
-      <img src="@/assets/screen.svg" alt="">
+      <img src="@/assets/screen.svg" alt="An icon of a computer screen with a letter in the center to indicate email functionality.">
     </div>
 
     <div class="email-img">

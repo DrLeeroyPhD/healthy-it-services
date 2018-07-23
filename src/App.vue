@@ -2,7 +2,7 @@
   <div id="app">
 
     <div id="background-container">
-      <img src="./assets/bg-laptop.jpg" id="background" />
+      <img src="./assets/bg-laptop.jpg" id="background" alt="Backround image of a laptop." />
     </div>
 
     <div id="nav">

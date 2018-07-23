@@ -14,9 +14,9 @@
     </ul>
 
     <div class="logo-container">
-      <img src="@/assets/logo-edit.png" alt="">
-      <img src="@/assets/logo-edit.png" alt="">
-      <img src="@/assets/logo-edit.png" alt="">
+      <img src="@/assets/logo-edit.png" alt="The company logo of 3 8-bit hearts">
+      <img src="@/assets/logo-edit.png" alt="The company logo of 3 8-bit hearts">
+      <img src="@/assets/logo-edit.png" alt="The company logo of 3 8-bit hearts">
     </div>
   </div>
 </template>
