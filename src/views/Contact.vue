@@ -1,29 +1,21 @@
 <template>
   <div class="contact page">
-    <div class="screen-img">
-      <img src="@/assets/screen.svg" alt="An icon of a computer screen with a letter in the center to indicate email functionality.">
-    </div>
-
-    <div class="email-img">
-      <img src="@/assets/email.svg" alt="">
-    </div>
+    <a href="#">
+      <img src="@/assets/email.png" alt="An icon of a computer screen with a letter in the center to indicate email functionality.">
+    </a>
   </div>
 </template>
 
 <style>
   .contact {
-    margin-top: 12%;
+    margin-top: 4%;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  .screen-img {
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
+  .contact a img {
+    width: 650px;
   }
 
-  .email-img {
-    display: flex;
-    justify-content: space-around;
-  }
 </style>
