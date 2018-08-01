@@ -43,4 +43,25 @@
     font-family: glacial, sans-serif;
     font-weight: lighter;
   }
+
+  /** RESPONSIVE STYLING **/
+
+  @media screen and (max-width: 755px) {
+    /** Make Home Page Lettering Fit on Smaller screens **/
+      .home h1 {
+        font-size: 4em;
+      }
+
+      .home h2 {
+        font-size: 1.4em;
+        letter-spacing: 8px;
+      }
+  }
+
+  @media screen and (max-width: 475px) {
+    /** Make Logo Fit on even Smaller screens **/
+      .logo-container img {
+        width: 20vw;
+      }
+  }
 </style>
