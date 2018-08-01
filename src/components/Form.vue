@@ -45,7 +45,7 @@
   }
 
   .form input[type="submit"] {
-    width: 100%;;
+    width: 100%;
     padding: 5px;
     background-color: var(--light-purple);
   }
