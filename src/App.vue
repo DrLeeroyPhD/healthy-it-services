@@ -63,8 +63,8 @@
 
 /** BACKGROUND **/
 #background-container{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     display: inline-block;
     position: absolute;
@@ -78,8 +78,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 110vw;
-    min-height: 100vh;
+    min-width: 110%;
+    min-height: 100%;
     z-index: -1000;
     filter: opacity(.30);
     z-index: -11;
