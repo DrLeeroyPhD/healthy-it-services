@@ -62,7 +62,7 @@
 @import "https://cdn.jsdelivr.net/npm/animate.css@3.5.1";
 
 /** BACKGROUND **/
-div#background-container{
+#background-container{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
@@ -73,19 +73,20 @@ div#background-container{
     z-index: -10;
 }
 
-img#background{
+#background{
     display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
-    width: 110vw;
+    min-width: 110vw;
+    min-height: 100vh;
     z-index: -1000;
     filter: opacity(.30);
     z-index: -11;
 }
 
 /** NAVIGATION **/
-div#nav{
+#nav{
     width: 100vw;
     margin-top: 50px;
     display: flex;
@@ -97,14 +98,14 @@ div#nav{
     letter-spacing: 10px;
 }
 
-div#nav *{
+#nav *{
     color: var(--dark-grey);
     font-size: 1.8em;
     text-decoration: none;
     transition: color ease-out .2s;
 }
 
-div#nav *:hover{
+#nav *:hover{
     color: #bbb;
     transition: color ease-out .2s;
 }
@@ -152,4 +153,29 @@ footer{
 }
 /** END TEMP FOOTER STYLING **/
 
+/** RESPONSIVE STYLING **/
+
+@media screen and (max-width: 755px) {
+  /** Make Navigation Lettering Fit on Smaller screens **/
+    #nav * {
+      letter-spacing: 8px;
+      font-size: 1.2em;
+      text-shadow: 0 0 2px var(--light-grey);
+    }
+
+  /** Ensure Background Continues to show the laptop **/
+    #background {
+      right: -25% !important;
+      left: auto;
+    }
+}
+
+@media screen and (max-width: 475px) {
+  /** Make Navigation Lettering Fit on even Smaller screens **/
+    #nav * {
+      letter-spacing: 6px;
+      font-size: 1em;
+      text-shadow: 0 0 2px var(--light-grey);
+    }
+}
 </style>
