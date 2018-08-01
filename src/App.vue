@@ -46,8 +46,6 @@
     --light-purple: #A197A8;
     --dark-grey: #404040;
     --light-grey: #515151;
-
-    --primary-radius: 8px;
 }
 
 /** IMPORTS **/
