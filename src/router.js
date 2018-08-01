@@ -4,6 +4,7 @@ import home from './views/Home.vue'
 import about from './views/About.vue'
 import services from './views/Services.vue'
 import contact from './views/Contact.vue'
+import form from './components/Form.vue'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: contact
+    },
+    {
+      path: '/form',
+      name: 'form',
+      component: form
     }
   ]
 })

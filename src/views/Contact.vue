@@ -3,6 +3,7 @@
     <a href="#">
       <img src="@/assets/email.png" alt="An icon of a computer screen with a letter in the center to indicate email functionality.">
     </a>
+    <emailForm />
   </div>
 </template>
 
@@ -19,3 +20,14 @@
   }
 
 </style>
+
+<script>
+import emailForm from '@/components/Form.vue'
+
+export default {
+  name: 'contact',
+  components: {
+    emailForm
+  }
+}
+</script>
