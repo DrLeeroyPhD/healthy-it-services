@@ -49,4 +49,36 @@
     z-index: -10;
     top: -50px;
   }
+
+
+  /** RESPONSIVE STYLING **/
+
+  @media screen and (max-width: 755px) {
+
+    /** Prevent Services Section from colliding with Nav **/
+    .services {
+      margin-top: 80px;
+    }
+
+    /** Make Services Page Lettering Fit on Smaller screens **/
+      .services ul li {
+        font-size: 1.5em;
+      }
+
+      .services .logo-container img {
+        width: 15vw;
+      }
+  }
+
+  @media screen and (max-width: 475px) {
+    /** Make Services Lettering Fit on even Smaller screens **/
+      .services ul {
+        width: 95%;
+        padding: 25px 15px 25px 55px;
+      }
+
+      .services ul li {
+        font-size: 1.3em;
+      }
+  }
 </style>
