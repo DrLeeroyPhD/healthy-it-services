@@ -32,6 +32,7 @@
     text-shadow: 3px 3px 0 var(--dark-grey);
     margin-bottom: -10px;
     margin-top: -.05em;
+    margin-right: 25px;
     font-family: glacialBold, sans-serif;
     letter-spacing: 10px;
   }
@@ -42,6 +43,7 @@
     letter-spacing: 15px;
     font-family: glacial, sans-serif;
     font-weight: lighter;
+    margin-right: 25px;
   }
 
   /** RESPONSIVE STYLING **/
