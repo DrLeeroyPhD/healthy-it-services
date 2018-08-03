@@ -41,6 +41,7 @@
   .services ul li{
     font-family: glacial, sans-serif;
     font-size: 2.5em;
+    list-style: inside;
   }
 
   .services .logo-container {
