@@ -60,7 +60,7 @@
   /** RESPONSIVE STYLING **/
 
   @media screen and (max-width: 755px) {
-    /** Make Home Page Lettering Fit on Smaller screens **/
+    /** Make form section fit into the monitor icon on Smaller screens **/
       .form {
         margin-top: 15%;
       }

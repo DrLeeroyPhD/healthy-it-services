@@ -30,7 +30,7 @@
   }
 
   @media screen and (max-width: 475px) {
-    /** Make Logo Fit on even Smaller screens **/
+    /** Make screen image fit better on even Smaller screens **/
       .contact a img {
         width: 100vw;
       }
