@@ -55,6 +55,18 @@
     background-color: var(--dark-purple);
     color: #fff;
   }
+
+
+  /** RESPONSIVE STYLING **/
+
+  @media screen and (max-width: 755px) {
+    /** Make Home Page Lettering Fit on Smaller screens **/
+      .form {
+        margin-top: 15%;
+      }
+
+
+  }
 </style>
 
 <script>

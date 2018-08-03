@@ -16,9 +16,25 @@
   }
 
   .contact a img {
-    width: 650px;
+    width: 50vw;
   }
 
+
+  /** RESPONSIVE STYLING **/
+
+  @media screen and (max-width: 755px) {
+    /** Make screen image fit better on Smaller screens **/
+      .contact a img {
+        width: 75vw;
+      }
+  }
+
+  @media screen and (max-width: 475px) {
+    /** Make Logo Fit on even Smaller screens **/
+      .contact a img {
+        width: 100vw;
+      }
+  }
 </style>
 
 <script>
