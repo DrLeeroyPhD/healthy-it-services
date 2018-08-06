@@ -1,23 +1,15 @@
 <template>
   <div class="about page">
     <p>
-      Raised in the early days of the internet age, Christopher was
-practically born with a motherboard in one hand, and a hard
-drive in the other.<br />
-The son of a software developer, he built his first computer
-at the age of eight, and quickly moved to running his own
-website as a forum moderator.<br />
-After graduating high school, he pursued a career in web
-development for a time. But less code-based forms of work
-kept finding a way in, through his hobbies with raspberry pi
-projects, helping family members with the usual my-laptop-
-is-running-slow problems, tinkering with Linux, virtual boxes,
-servers, and more. In 2017 he was hired for his first job in
-the IT field, where his interest in the career grew to the
-business that it is today.<br /><br />
-In his spare time he likes complaining about the state of
-modern MMOs and long romantic walks down Best Buy isles
-with his wife.
+      Healthy IT Services was founded with the mission to serve the needs of local medical offices.
+    </p>
+    <p>
+      Dedicated to adherence of HIPAA Compliant standards and providing the necessary training in maintaining patient privacy,
+      our services include everything from simple computer diagnostics and virus removal to data recovery and network security.
+    </p>
+    <p>
+      Built with the intent to cater to the needs of facilities that require regular check-ups to their technology and security,
+      but not in need of a full-time IT staff, Healthy IT Services is ready to meet the unique needs of your office.
     </p>
   </div>
 </template>
@@ -50,5 +42,23 @@ End Arrow Placement **/
   .about p {
     font-size: 1.6em;
     font-family: glacial, sans-serif;
+  }
+
+
+  /** RESPONSIVE STYLING **/
+
+  @media screen and (max-width: 755px) {
+
+    /** Make About Lettering Fit on Smaller screens **/
+    .about {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    /** Make Services Lettering Fit on even Smaller screens **/
+      .about p {
+        font-size: 1.2em;
+      }
   }
 </style>
