@@ -74,5 +74,9 @@ End Arrow Placement **/
         margin-left: 0;
         width: 100%;
       }
+
+      .about p {
+        font-size: 1em;
+      }
   }
 </style>
