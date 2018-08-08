@@ -6,7 +6,7 @@
       <img src="@/assets/logo-edit.png" alt="The company logo of 3 8-bit hearts">
     </div>
     <h1>HEALTHY IT <br>SERVICES</h1>
-    <h2>christopher denny : it consultant</h2>
+    <h2>christopher denny | it consultant</h2>
   </div>
 </template>
 
@@ -49,7 +49,8 @@
   /** RESPONSIVE STYLING **/
 
   @media screen and (max-width: 755px) {
-    /** Make Home Page Lettering Fit on Smaller screens **/
+    /** Make Home Page Lettering Fit on Tablets and Large phones **/
+    
       .home h1 {
         font-size: 4em;
       }
@@ -61,9 +62,20 @@
   }
 
   @media screen and (max-width: 475px) {
-    /** Make Logo Fit on even Smaller screens **/
+    /** Make Logo Fit on large and medium phones **/
       .logo-container img {
         width: 20vw;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+    /** Make Logo Fit on medium and small phones **/
+      .home h1 {
+        font-size: 2.75em;
+      }
+
+      .home h2 {
+        font-size: 1.2em;
       }
   }
 </style>

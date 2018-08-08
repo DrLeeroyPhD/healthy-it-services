@@ -23,14 +23,14 @@
   /** RESPONSIVE STYLING **/
 
   @media screen and (max-width: 755px) {
-    /** Make screen image fit better on Smaller screens **/
+    /** Make screen image fit better on Tablets and Large phones **/
       .contact a img {
         width: 75vw;
       }
   }
 
   @media screen and (max-width: 475px) {
-    /** Make screen image fit better on even Smaller screens **/
+    /** Make screen image fit better on large and medium phones **/
       .contact a img {
         width: 100vw;
       }

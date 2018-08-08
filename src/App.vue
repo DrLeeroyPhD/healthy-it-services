@@ -156,7 +156,7 @@ footer{
 /** RESPONSIVE STYLING **/
 
 @media screen and (max-width: 755px) {
-  /** Make Navigation Lettering Fit on Smaller screens **/
+  /** Make Navigation Lettering Fit on Tablets and Large phones **/
     #nav * {
       letter-spacing: 8px;
       font-size: 1.2em;
@@ -171,11 +171,19 @@ footer{
 }
 
 @media screen and (max-width: 475px) {
-  /** Make Navigation Lettering Fit on even Smaller screens **/
+  /** Make Navigation Lettering Fit on large and medium phones **/
     #nav * {
       letter-spacing: 6px;
       font-size: 1em;
       text-shadow: 0 0 2px var(--light-grey);
+    }
+}
+
+@media screen and (max-width: 400px) {
+  /** Make Navigation on medium and small phones **/
+    #nav * {
+      letter-spacing: 4px;
+      font-size: 1em;
     }
 }
 </style>

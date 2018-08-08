@@ -61,7 +61,7 @@
       margin-top: 80px;
     }
 
-    /** Make Services Page Lettering Fit on Smaller screens **/
+    /** Make Services Page Lettering Fit on Tablets and Large phones **/
       .services ul li {
         font-size: 1.5em;
       }
@@ -72,7 +72,7 @@
   }
 
   @media screen and (max-width: 475px) {
-    /** Make Services Lettering Fit on even Smaller screens **/
+    /** Make Services Lettering Fit on large and medium phones **/
       .services ul {
         width: 95%;
         padding: 25px 15px 25px 55px;

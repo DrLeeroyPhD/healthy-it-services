@@ -34,9 +34,10 @@ End Arrow Placement **/
     padding: 2px 25px;
     background-color: rgba(255, 255, 255, 0.7);
     width: 60%;
-    margin-left: 6%;
+    margin-left: 10%;
     margin-top: 6%;
     z-index: 2;
+    box-sizing: border-box;
   }
 
   .about p {
@@ -49,16 +50,29 @@ End Arrow Placement **/
 
   @media screen and (max-width: 755px) {
 
-    /** Make About Lettering Fit on Smaller screens **/
+    /** Make About Lettering Fit on Tablets and Large phones **/
     .about {
       width: 80%;
+      margin-left: 3%;
+    }
+
+    .about p {
+      font-size: 1.4em;
     }
   }
 
   @media screen and (max-width: 475px) {
-    /** Make Services Lettering Fit on even Smaller screens **/
+    /** Make About Lettering Fit on large and medium phones **/
       .about p {
         font-size: 1.2em;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+    /** Make About section fit on medium and small phones **/
+      .about {
+        margin-left: 0;
+        width: 100%;
       }
   }
 </style>
